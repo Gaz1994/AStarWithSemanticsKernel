@@ -65,5 +65,4 @@ Movement:
 
 TODO List: 
 * Look into using ```InMemoryVectorStore```.
-* Update pathfinding results on the fly when dynamic map changes happen (like item spawns).
 * Use AI for updating pathfinding resutls on the fly instead of on init (My design decision came from wanting to simulate a realistic scenario where this library could be used efficiently in terms of cost and performance). 
