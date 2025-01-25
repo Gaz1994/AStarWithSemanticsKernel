@@ -3,7 +3,6 @@ using System.Numerics;
 namespace AStarWithSemanticsKernel;
 
 
-// In your library:
 public interface IPathEnvironment<T> where T : IPathTile
 {
     T GetTile(Vector2 position);
