@@ -14,7 +14,7 @@ public class Game
         // Setup the Semantic Kernel
         var builder = Kernel.CreateBuilder()
             .AddOpenAIChatCompletion(
-                modelId: "", // or gpt-3.5-turbo if you prefer
+                modelId: "",
                 apiKey: ""
             );
         var kernel = builder.Build();
