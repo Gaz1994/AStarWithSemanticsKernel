@@ -1,6 +1,8 @@
 # AStarWithSemanticsKernel
 
-Demo Pathfinding using Semantics Kernel under the hood, refer to the ```Example``` folder to see use case. 
+Crazy & fun demo Pathfinding project using Semantics Kernel under the hood, refer to the ```Example``` folder to see use case. 
+I wouldn't recommend using this outside of experimenting as it might be very cost heavy when it comes to using AI. However it also works without it. 
+
 
 Example Code:
 
@@ -58,3 +60,9 @@ Movement:
     }
 
 ```
+
+
+TODO List: 
+* Look into using ```InMemoryVectorStore```.
+* Update pathfinding results on the fly when dynamic map changes happen (like item spawns).
+* Use AI for updating pathfinding resutls on the fly instead of on init (My design decision came from wanting to simulate a realistic scenario where this library could be used efficiently in terms of cost and performance). 
