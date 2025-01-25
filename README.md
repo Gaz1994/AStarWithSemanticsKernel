@@ -1,6 +1,7 @@
 # AStarWithSemanticsKernel
 
 Crazy & fun demo Pathfinding project using Semantics Kernel under the hood, refer to the ```Example``` folder to see use case. 
+
 I wouldn't recommend using this outside of experimenting as it might be very cost heavy when it comes to using AI, however it also works without it. 
 
 
