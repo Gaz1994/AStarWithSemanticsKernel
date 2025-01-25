@@ -65,4 +65,4 @@ Movement:
 
 TODO List: 
 * Look into using ```InMemoryVectorStore```.
-* Use AI for updating pathfinding resutls on the fly instead of on init (My design decision came from wanting to simulate a realistic scenario where this library could be used efficiently in terms of cost and performance). 
+* Use AI for updating pathfinding results on the fly instead of on init (My design decision came from wanting to simulate a realistic scenario where this library could be used efficiently in terms of cost and performance). 
